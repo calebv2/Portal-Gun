@@ -1,0 +1,9 @@
+newmtl PTG.001
+Kd 1 1 1
+map_Kd ../Textures/GunTexture.png
+
+newmtl Plastic_tube.001
+Kd 0.12 0.14 0.16
+
+newmtl Emissive.001
+Kd 0.05 0.5 1

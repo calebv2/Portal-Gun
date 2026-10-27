@@ -6,8 +6,8 @@ A Township Tale PCVR mod with a portal gun and a placeable pair of linked doorwa
 
 Download the latest release. Close the game and server, then install:
 
-- `Client/Mods/PortalGun.dll` in the client's Mods folder.
-- `Server/Mods/PortalGun.dll` in the server's Mods folder.
+- `PortalGun-Client.dll` for the client. Rename it to `PortalGun.dll` and place it in the client's Mods folder.
+- `PortalGun-Server.dll` for the server. Rename it to `PortalGun.dll` and place it in the server's Mods folder.
 
 Replace the previous DLL rather than keeping duplicate copies. Keep your existing `modHashIds.json`. Start the server before connecting clients. Every player needs the client mod.
 
@@ -40,7 +40,7 @@ Both destinations must already be loaded. Portals do not cut holes through exist
 
 ## Version 0.2.5
 
-Corrects doorway collision-layer assignment on registration and loading. Includes the finished doorway designs and reduced-cost portal rendering: 512×512 per eye, duplicate capture prevention, and no cast shadows inside portal captures.
+Corrects doorway collision-layer assignment on registration and loading. Includes the finished doorway designs and reduced-cost portal rendering: 512ï¿½512 per eye, duplicate capture prevention, and no cast shadows inside portal captures.
 
 ## Unity project
 
